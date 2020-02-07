@@ -10,6 +10,12 @@ public class Operaciones {
 		this.operadorB=operadorB;
 		
 	}
+	public int suma() {
+		return operadorA + operadorB;
+	}
+	public int resta() {
+		return operadorA - operadorB;
+	}
 
 	public int getOperadorA() {
 		return operadorA;
